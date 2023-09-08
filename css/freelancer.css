@@ -507,8 +507,8 @@ fieldset[disabled] .btn-success.active {
 }
 
 .headshot {
-  width: auto;
-  height: 30%;
-  border-radius: 50%;
-  margin-bottom: 20px;
+  width: 25%;
+  height: auto;
+  /* border-radius: 50%; */
+  margin-top: 20px;
 }
