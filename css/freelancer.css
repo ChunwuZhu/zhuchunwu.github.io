@@ -81,12 +81,12 @@ header .container {
 }
 header img {
   display: block;
-  margin: 0 auto 10px;
+  margin: 0 auto 0px;
 }
 
 @media (min-width: 768px) {
   header .container {
-    padding-top: 150px;
+    padding-top: 120px;
     padding-bottom: 10px;
   }
 
@@ -95,8 +95,7 @@ header img {
   background: #2C3E50;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  /*font-weight: 700;*/
-  font-weight: 500;
+  font-weight: 600;
   border: none;
 }
 .navbar-custom a:focus {
@@ -113,9 +112,11 @@ header img {
 }
 .navbar-custom .navbar-nav {
   /*letter-spacing: 1px;*/
-  letter-spacing: 0.5;
+  letter-spacing: 0.5px;
 }
 .navbar-custom .navbar-nav li a {
+  padding-left: 8px;
+  padding-right: 8px;
   color: white;
 }
 .navbar-custom .navbar-nav li a:hover {
@@ -152,13 +153,13 @@ header img {
 }
 @media (min-width: 768px) {
   .navbar-custom {
-    padding: 25px 0;
+    padding: 20px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
   }
   .navbar-custom .navbar-brand {
-    font-size: 1.7em;
+    font-size: 1.8em;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
@@ -507,8 +508,8 @@ fieldset[disabled] .btn-success.active {
 }
 
 .headshot {
-  width: 25%;
+  width: 30%;
   height: auto;
-  /* border-radius: 50%; */
-  margin-top: 20px;
+  border-radius: 5%;
+  margin-top: 10px;
 }
